@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.552 s <<< FAILURE! - in TestSuite
+setup(com.maven1.BaseClass)  Time elapsed: 0.021 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: com/gargoylesoftware/htmlunit/WebWindowListener
+	at com.maven1.BaseClass.setup(BaseClass.java:16)
+Caused by: java.lang.ClassNotFoundException: com.gargoylesoftware.htmlunit.WebWindowListener
+	at com.maven1.BaseClass.setup(BaseClass.java:16)
+
