@@ -17,6 +17,8 @@ public class BaseClass {
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		driver.get("https://opensource-demo.orangehrmlive.com/");
 		
+		
+		
 	//this is a working code this will open browser in chrome driver
 		
 	}
